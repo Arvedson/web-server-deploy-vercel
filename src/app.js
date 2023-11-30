@@ -153,10 +153,12 @@ app.get("/Inicio", (req, res) =>{
     res.send("Ayuda")
 })*/
 
-const puerto = 3000;
+/*const puerto = 3000;
 app.listen(puerto, () => {
     console.log("Server is up on port 3000")
-})
+})*/
+
+module.exports = app;
 
 
 //en resumen, usamos handlebars para poder renderear contenido dinamico 
