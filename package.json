@@ -16,7 +16,7 @@
     "request": "^2.88.2"
   },
   "vercel": {
-    "builds": [{ "src": "public/**/*", "use": "@vercel/static" }],
+    "builds": [{ "src": "web-server/**/*", "use": "@vercel/static" }],
     "routes": [{ "handle": "filesystem" }, { "src": "/.*", "dest": "/index.html" }]
   }
 }
